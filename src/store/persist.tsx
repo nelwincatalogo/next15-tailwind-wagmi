@@ -5,8 +5,10 @@ import { devtools } from '@hookstate/devtools';
 import merge from 'lodash.merge';
 
 import { localstored } from './plugins/localStored';
+import { IVerify } from './types/persist.types';
 
 const initialState = {
+	verify: null as IVerify | null,
 	sample: {
 		counter: 0,
 	},

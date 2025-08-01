@@ -1,11 +1,11 @@
 'use client';
 
-import Template from '@/components/samples/template';
+import { ConnectKitButton } from 'connectkit';
 
 export default function Home() {
 	return (
-		<div>
-			<Template />
+		<div className="grid min-h-screen place-items-center">
+			<ConnectKitButton />
 		</div>
 	);
 }

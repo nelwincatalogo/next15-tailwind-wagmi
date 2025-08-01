@@ -28,7 +28,7 @@ import {
 } from '@/components/ui/popover';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import useLocalStorage from '@/core/hooks/utils/useLocalStorage';
-import { cn } from '@/core/lib/utils';
+import { cn } from '@/core/utils';
 
 export interface DateRange {
 	from: Date;

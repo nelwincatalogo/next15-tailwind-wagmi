@@ -22,7 +22,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useMediaQuery } from '@/core/hooks/utils/use-media-query';
-import { cn } from '@/core/lib/utils';
+import { cn } from '@/core/utils';
 
 export function DrawerDialogDemo() {
 	const [open, setOpen] = React.useState(false);

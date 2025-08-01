@@ -64,3 +64,7 @@ export function capitalize(str: string) {
 
 	return capitalizedStr;
 }
+
+export const shortAddr = (addr: string) => {
+	return `${addr.substr(0, 4)}...${addr.substring(addr.length - 4, addr.length)}`;
+};

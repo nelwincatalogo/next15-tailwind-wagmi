@@ -6,7 +6,7 @@ import { geistMono, geistSans, inter, poppins } from '@/components/common/font';
 import { Toaster } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { isDevMode } from '@/core/constants';
-import ReactQueryProvider from '@/providers/lib/react-query';
+import Web3Provider from '@/providers/web3/web3-provider';
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://vercel.com'),
@@ -46,9 +46,9 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${inter.variable} font-sans antialiased`}
 			>
-				<ReactQueryProvider>
+				<Web3Provider>
 					<TooltipProvider>{children}</TooltipProvider>
-				</ReactQueryProvider>
+				</Web3Provider>
 				<Toaster />
 			</body>
 		</html>

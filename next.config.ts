@@ -13,7 +13,7 @@ module.exports = async (phase: string, { defaultConfig }: any) => {
 	};
 
 	// Apply production-only configurations here
-	if (phase === PHASE_PRODUCTION_BUILD || process.env.NEXT_PUBLIC_ENV == '1') {
+	if (phase === PHASE_PRODUCTION_BUILD) {
 		return {
 			...nextConfig,
 			compiler: {
