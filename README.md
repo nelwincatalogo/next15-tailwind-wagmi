@@ -46,10 +46,10 @@ Create a new project using this template with either yarn or npx:
 
 ```bash
 # Using yarn
-yarn create next-app [project-name] -e https://github.com/nelwincatalogo/next15-tailwind
+yarn create next-app [project-name] -e https://github.com/nelwincatalogo/next15-tailwind-wagmi
 
 # Using npx
-npx create-next-app [project-name] -e https://github.com/nelwincatalogo/next15-tailwind
+npx create-next-app [project-name] -e https://github.com/nelwincatalogo/next15-tailwind-wagmi
 ```
 
 ## Getting Started
